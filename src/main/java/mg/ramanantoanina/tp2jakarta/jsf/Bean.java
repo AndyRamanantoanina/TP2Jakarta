@@ -34,4 +34,10 @@ public class Bean {
     public String afficher() {
     return "affichage_3?nb="+ nombre + "&amp;faces-redirect=true";
     }
+    public String afficherQuatre() {
+    return "affichage_4?nb="+ nombre + "&amp;faces-redirect=true";
+    }
+    public String afficherRetour() {
+    return "formulaire_4?nb="+ nombre + "&amp;faces-redirect=true";
+    }
 }
